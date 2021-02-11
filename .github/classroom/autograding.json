@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "InsertionSort",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testInsertionSort",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Merge",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMerge",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
